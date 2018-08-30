@@ -1,0 +1,6 @@
+<nz-carousel [nzEffect]="'fade'" [nzAutoPlay]=true>
+  <div nz-carousel-content *ngFor="let imgs of array"><img [src]="imgs" /></div>
+</nz-carousel>
+<nz-content style="padding:0 50px; margin-top: 10px;">
+  <div style="background:#fff; padding: 24px; min-height: 580px;">Content</div>
+</nz-content>
